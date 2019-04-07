@@ -30,3 +30,4 @@ Execution:
 Reporting:
 1. Cucumber report is generated in the path ./target/cucumber-reports/cucumber-pretty/ folder index.html
 2. Test NG report is generated in the path ./test-output/index.html
+3. If there is a failure while executing the scenario, screenshot is taken and its embedded with the cucumber report ./target/cucumber-reports/cucumber-pretty/index.html
