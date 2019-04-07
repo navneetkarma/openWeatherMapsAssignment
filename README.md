@@ -3,7 +3,9 @@
 Read Me,
 
 Prerequisite:
-1. Before executing the test cases make sure chrome or firefox browser, maven and java is installed.
+1. Before executing the test cases make sure chrome or firefox browser is installed.
+2. Maven and Java is installed
+3. JDK version 1.8.0 is set in the environment variable.
 
 Framework:
 1. For BDD (Behavior Driven Development), cucumber Gherkin language is used
