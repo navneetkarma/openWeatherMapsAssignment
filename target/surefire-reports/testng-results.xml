@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.prudential.runner.TestRunner" duration-ms="72201" started-at="2019-04-07T08:41:19Z" finished-at="2019-04-07T08:42:31Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="72201" started-at="2019-04-07T08:41:19Z" finished-at="2019-04-07T08:42:31Z">
+      <class name="com.prudential.runner.TestRunner">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.prudential.runner.TestRunner@3a82f6ef]" name="setUP" is-config="true" duration-ms="4632" started-at="2019-04-07T08:41:15Z" finished-at="2019-04-07T08:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="homepage(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.prudential.runner.TestRunner@3a82f6ef]" name="homepage" duration-ms="47108" started-at="2019-04-07T08:41:19Z" description="Homepage" data-provider="features" finished-at="2019-04-07T08:42:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[City Validation Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="homepage(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.prudential.runner.TestRunner@3a82f6ef]" name="homepage" duration-ms="25013" started-at="2019-04-07T08:42:06Z" description="Homepage" data-provider="features" finished-at="2019-04-07T08:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Information Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.prudential.runner.TestRunner@3a82f6ef]" name="tearDown" is-config="true" duration-ms="1720" started-at="2019-04-07T08:42:32Z" finished-at="2019-04-07T08:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.prudential.runner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.prudential.runner.TestRunner -->
+</testng-results>

@@ -1,0 +1,1745 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 159289,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Perform negative test case on the search of city",
+        "description": "",
+        "id": "city-validation-feature;perform-negative-test-case-on-the-search-of-city",
+        "after": [
+          {
+            "result": {
+              "duration": 302080,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8243480962,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140898377,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter invalid text in the city search box",
+            "match": {
+              "location": "Homepage.enter_invalid_city()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3965104935,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the search button",
+            "match": {
+              "location": "Homepage.click_search_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195953153,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate that no record is found for invalid text",
+            "match": {
+              "location": "Homepage.check_no_record()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 125725,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Perform postive test case where searched city coordinate is validated",
+        "description": "",
+        "id": "city-validation-feature;perform-postive-test-case-where-searched-city-coordinate-is-validated;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 51200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3165162050,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143117613,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter valid text \"Mumbai, IN\" in the city search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mumbai, IN",
+                  "offset": 18
+                }
+              ],
+              "location": "Homepage.enter_valid_city(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4186206382,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the search button",
+            "match": {
+              "location": "Homepage.click_search_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161721412,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate the coordinate \"[19.0144, 72.8479]\" of the searched city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "[19.0144, 72.8479]",
+                  "offset": 25
+                }
+              ],
+              "location": "Homepage.validate_coordinate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 52906,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Perform postive test case where searched city coordinate is validated",
+        "description": "",
+        "id": "city-validation-feature;perform-postive-test-case-where-searched-city-coordinate-is-validated;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 47787,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2975329572,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85256509,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter valid text \"Delhi, IN\" in the city search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi, IN",
+                  "offset": 18
+                }
+              ],
+              "location": "Homepage.enter_valid_city(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2325718948,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the search button",
+            "match": {
+              "location": "Homepage.click_search_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181874294,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate the coordinate \"[28.6517, 77.2219]\" of the searched city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "[28.6517, 77.2219]",
+                  "offset": 25
+                }
+              ],
+              "location": "Homepage.validate_coordinate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 42666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Perform postive test case where searched city coordinate is validated",
+        "description": "",
+        "id": "city-validation-feature;perform-postive-test-case-where-searched-city-coordinate-is-validated;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 93867,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1831788705,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162317607,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter valid text \"Kolkata, IN\" in the city search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kolkata, IN",
+                  "offset": 18
+                }
+              ],
+              "location": "Homepage.enter_valid_city(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2907601662,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the search button",
+            "match": {
+              "location": "Homepage.click_search_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168025837,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate the coordinate \"[22.5677, 88.3476]\" of the searched city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "[22.5677, 88.3476]",
+                  "offset": 25
+                }
+              ],
+              "location": "Homepage.validate_coordinate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 54614,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Perform postive test case where searched city coordinate is validated",
+        "description": "",
+        "id": "city-validation-feature;perform-postive-test-case-where-searched-city-coordinate-is-validated;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 55183,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2070056371,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156582071,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter valid text \"Bengaluru, IN\" in the city search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bengaluru, IN",
+                  "offset": 18
+                }
+              ],
+              "location": "Homepage.enter_valid_city(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2926447807,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the search button",
+            "match": {
+              "location": "Homepage.click_search_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295636111,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate the coordinate \"[12.9791, 77.5913]\" of the searched city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "[12.9791, 77.5913]",
+                  "offset": 25
+                }
+              ],
+              "location": "Homepage.validate_coordinate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 43804,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Perform postive test case where searched city coordinate is validated",
+        "description": "",
+        "id": "city-validation-feature;perform-postive-test-case-where-searched-city-coordinate-is-validated;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 50631,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1435024089,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79237098,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter valid text \"Chennai, IN\" in the city search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chennai, IN",
+                  "offset": 18
+                }
+              ],
+              "location": "Homepage.enter_valid_city(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1996636730,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the search button",
+            "match": {
+              "location": "Homepage.click_search_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147994126,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate the coordinate \"[13.0878, 80.2785]\" of the searched city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "[13.0878, 80.2785]",
+                  "offset": 25
+                }
+              ],
+              "location": "Homepage.validate_coordinate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 40391,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Perform postive test case where searched city coordinate is validated",
+        "description": "",
+        "id": "city-validation-feature;perform-postive-test-case-where-searched-city-coordinate-is-validated;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 178062,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1389334360,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163129412,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter valid text \"Hyderabad, IN\" in the city search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hyderabad, IN",
+                  "offset": 18
+                }
+              ],
+              "location": "Homepage.enter_valid_city(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2655561770,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the search button",
+            "match": {
+              "location": "Homepage.click_search_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85567123,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate the coordinate \"[17.3616, 78.4747]\" of the searched city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "[17.3616, 78.4747]",
+                  "offset": 25
+                }
+              ],
+              "location": "Homepage.validate_coordinate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 167822,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Perform postive test case where searched city coordinate is validated",
+        "description": "",
+        "id": "city-validation-feature;perform-postive-test-case-where-searched-city-coordinate-is-validated;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 58027,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1435199307,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77274431,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter valid text \"Pune, IN\" in the city search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pune, IN",
+                  "offset": 18
+                }
+              ],
+              "location": "Homepage.enter_valid_city(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2069113153,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the search button",
+            "match": {
+              "location": "Homepage.click_search_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129487039,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate the coordinate \"[18.5203, 73.8543]\" of the searched city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "[18.5203, 73.8543]",
+                  "offset": 25
+                }
+              ],
+              "location": "Homepage.validate_coordinate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "City Validation Feature",
+    "description": "Validate the positive and negative test cases on the search of city",
+    "id": "city-validation-feature",
+    "keyword": "Feature",
+    "uri": "CityValidation.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTest"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 61440,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify that the title of the page when Sign Up link is clicked",
+        "description": "",
+        "id": "information-feature;verify-that-the-title-of-the-page-when-sign-up-link-is-clicked",
+        "after": [
+          {
+            "result": {
+              "duration": 98987,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1284537662,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4260273988,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the sign up link",
+            "match": {
+              "location": "Homepage.click_signup_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18058804,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the title of the page is Members",
+            "match": {
+              "location": "Homepage.title_assertion()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 105813,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify that the tabs are available on the home page",
+        "description": "",
+        "id": "information-feature;verify-that-the-tabs-are-available-on-the-home-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 55182,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1487631506,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85401576,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that the \"Weather\" is found on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Weather",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage.tabs_presence(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44942,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify that the tabs are available on the home page",
+        "description": "",
+        "id": "information-feature;verify-that-the-tabs-are-available-on-the-home-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 84195,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1594013128,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133296886,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that the \"Maps\" is found on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Maps",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage.tabs_presence(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 67697,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify that the tabs are available on the home page",
+        "description": "",
+        "id": "information-feature;verify-that-the-tabs-are-available-on-the-home-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 51200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1682899148,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99224434,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that the \"Guide\" is found on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guide",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage.tabs_presence(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 41529,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify that the tabs are available on the home page",
+        "description": "",
+        "id": "information-feature;verify-that-the-tabs-are-available-on-the-home-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 44942,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1375204871,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108583223,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that the \"API\" is found on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "API",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage.tabs_presence(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33565,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify that the tabs are available on the home page",
+        "description": "",
+        "id": "information-feature;verify-that-the-tabs-are-available-on-the-home-page;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 125724,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1527239246,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180532287,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that the \"Price\" is found on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage.tabs_presence(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 139378,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify that the tabs are available on the home page",
+        "description": "",
+        "id": "information-feature;verify-that-the-tabs-are-available-on-the-home-page;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 190578,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1274739690,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114131025,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that the \"Partners\" is found on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Partners",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage.tabs_presence(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1482524,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify that the tabs are available on the home page",
+        "description": "",
+        "id": "information-feature;verify-that-the-tabs-are-available-on-the-home-page;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 504035,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1321752086,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131334789,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that the \"Stations\" is found on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Stations",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage.tabs_presence(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 118898,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify that the tabs are available on the home page",
+        "description": "",
+        "id": "information-feature;verify-that-the-tabs-are-available-on-the-home-page;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 105245,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1397076367,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127588088,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that the \"Widgets\" is found on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Widgets",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage.tabs_presence(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 59165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify that the tabs are available on the home page",
+        "description": "",
+        "id": "information-feature;verify-that-the-tabs-are-available-on-the-home-page;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 70542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1452261418,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144567141,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify that the \"Blog\" is found on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blog",
+                  "offset": 17
+                }
+              ],
+              "location": "Homepage.tabs_presence(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 59164,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify the drop down menu when Maps is clicked",
+        "description": "",
+        "id": "information-feature;verify-the-drop-down-menu-when-maps-is-clicked",
+        "after": [
+          {
+            "result": {
+              "duration": 168960,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1546333996,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 327529720,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click the Maps tab",
+            "match": {
+              "location": "Homepage.click_maps_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161670781,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "verify the presence of sub menus of Maps tab",
+            "match": {
+              "location": "Homepage.verify_submenus_map()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 245191,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verify the presence of other important elements on the homepage",
+        "description": "",
+        "id": "information-feature;verify-the-presence-of-other-important-elements-on-the-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 126293,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1816508923,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Homepage.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82511052,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verify that Support Center element is present",
+            "match": {
+              "location": "Homepage.supportCenter_presence()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111060733,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "verify that Sign In element is present",
+            "match": {
+              "location": "Homepage.signIn_presence()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 144415817,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "verify that Sign Up element is present",
+            "match": {
+              "location": "Homepage.signOut_presence()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153583458,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "verify that Search button element is present",
+            "match": {
+              "location": "Homepage.searchButton_presence()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36000985,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "verify that label in search box is Your City Name",
+            "match": {
+              "location": "Homepage.text_in_search_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133818557,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "verify that search box element is present",
+            "match": {
+              "location": "Homepage.searchBox_presence()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146261861,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "verify that Current location text element is present",
+            "match": {
+              "location": "Homepage.currentLocation_presence()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Information Feature",
+    "description": "Verify the important labels and information on the home page",
+    "id": "information-feature",
+    "keyword": "Feature",
+    "uri": "ValidateImpInfo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTest"
+      }
+    ]
+  }
+]
