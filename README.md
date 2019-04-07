@@ -19,6 +19,10 @@ Configuration:
 2. chrome Drivers for linux, mac, windows operation system are kept in ./src/test/resources/drivers/chromeDriver folder.
 3. gecko Drivers for linux, mac, windows operation system are kept in ./src/test/resources/drivers/geckoDriver folder.
 
+Testing Scenario:
+1. CityValidation.feature (Positive and negative test cases on the search functionality is written)
+2. ValidationImpInfo.feature (Presence of title, tabs, sub menu, important links are validated)
+
 Execution:
 1. From eclipse: After download import the project in eclipse, either run testng.xml as TestNG suite or run TestRunner.java as TestNG Test from ./src/test/java/com/prudential/runner package
 2. From command line: Go to the project path and execute the command mvn test
